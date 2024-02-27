@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+:root {
+  --primary-color: #d2d2d2; /* Main text color */
+  --secondary-color: #555 ;
+  --background-color: #222; /* Background color */
+  --accent-color: #fbaed2 ; /* Accent color for links, buttons, etc. */
+  --border-color: #999; /* Border color */
+  --link-color: #ff007f;
+  --alt-text: #ffc0cb;
+  --highlight-color: #ff69b4;
+
+}
+
+
+body {
+  color: var(--primary-color);
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: var(--link-color);
+}
+
+h1{
+  color: var(--accent-color);
+}
+
+.capture-container{
+  color: var(--primary-color);
+  display: flex;
+  flex-direction:column ;
+  align-items: center;
+  justify-content: center;
+}
+
+

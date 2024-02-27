@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# virtual Environment 
+.env
+
+# Compiled files
+*.pyc
+*.pyo
+*.pyd
+
