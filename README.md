@@ -67,7 +67,7 @@ This is a Flask web application that utilizes OpenCV to create a virtual whitebo
         .env\Scripts\activate
         ```
 
-    - On Unix or MacOS:
+    - On Linux/Unix or MacOS:
 
         ```bash
         source .env/bin/activate
@@ -93,4 +93,4 @@ This is a Flask web application that utilizes OpenCV to create a virtual whitebo
 
 ## License
 
-This project is licensed under the GNU GENERAL PUBLIC LICENSE Version 3 MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU GENERAL PUBLIC LICENSE Version 3 - see the [LICENSE](LICENSE) file for details.
