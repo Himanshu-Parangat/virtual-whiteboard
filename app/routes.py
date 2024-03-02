@@ -1,16 +1,11 @@
-from flask import render_template, Response, Blueprint
 from .utils import genrate_frames
+from flask import render_template, Response
+from app import app
 
-
-
-# Define a blueprint named 'main'
-main_routes = Blueprint('main', __name__)
-
-# Define your routes within the blueprint
-@main_routes.route('/')
+@app.route('/')
 def index():
     return render_template('index.html')
 
-@main_routes.route('/board')
+@app.route('/capture')
 def stream():
     return Response(genrate_frames(True), mimetype='multipart/x-mixed-replace; boundary=frame')
